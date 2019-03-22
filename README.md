@@ -10,6 +10,8 @@ Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Gro
 
 The strategy that works best for me is first search for examples which come close to what you want and from there try to look into the source code of Jenkins or the plugin that you use.
 
+- Use the Script Console...
+
 ### Test your files
 
 In this repo you find a simple `Dockerfile` which you can use to quickly create and destory a Jenkins server to verify your Groovy file in the `init.groovy.d` directory.
@@ -19,7 +21,7 @@ In this repo you find a simple `Dockerfile` which you can use to quickly create 
 docker build -t jenkinsdev .
 
 # Create container
-docker run -it jenkinsdev
+docker run -it -p 80:8080 jenkinsdev
 ```
 
 ## ToDO
@@ -30,3 +32,4 @@ docker run -it jenkinsdev
   - [x] minimal plugin list
   - [x] minimal README
 - [ ] Make each Groovy example general
+- [ ] write blog / readme
