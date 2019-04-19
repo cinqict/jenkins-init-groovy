@@ -4,7 +4,7 @@ A while ago I developed some Groovy files to automaticaly configure Jenkins. Sin
 
 ## Configure Jenkins using Groovy
 
-Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial jenkins configurations.
+Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial jenkins configurations. In the `init.groovy.d.example` directory you can find groovy examples.
 
 ## Developing Groovy files yourself
 
