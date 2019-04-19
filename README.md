@@ -8,13 +8,13 @@ Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Gro
 
 ## Developing Groovy files yourself
 
-The strategy that works best for me is first search for examples which come close to what you want and from there try to look into the source code of Jenkins or the plugin that you use.
+The strategy that works best for me is first search the web for Groovy examples which come close to what you want and then dive into the source code of Jenkins or the particulair plugin that you want to configure.
 
-- Use the Script Console...
+You can you the the Script Console `http://localhost/script` to test your Groovy code.
 
-### Test your files
+### Simple Jenkins
 
-In this repo you find a simple `Dockerfile` which you can use to quickly create and destory a Jenkins server to verify your Groovy file in the `init.groovy.d` directory.
+In this repo you find a simple `Dockerfile` based on a previous blog [Building a Jenkins development Docker image](https://github.com/cinqict/jenkinsdev). Using this you can quickly create and destory a Jenkins server to verify your Groovy file in the `init.groovy.d` directory.
 
 ```bash
 # Build images
