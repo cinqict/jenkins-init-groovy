@@ -14,7 +14,7 @@ String jobDescription = "Pipeline job"
 String jobScript = "Jenkinsfile_hello_world"
 String gitRepo = "https://github.com/Dirc/jenkins-init-groovy.git"
 String gitRepoName = "jenkins-init-groovy"
-String gitRepoBranches = "master"
+String gitRepoBranches = "*"
 String credentialsId = ""
 
 // Create pipeline
