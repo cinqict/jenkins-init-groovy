@@ -6,19 +6,19 @@ import com.cloudbees.plugins.credentials.*
 import com.cloudbees.plugins.credentials.common.*
 import com.cloudbees.plugins.credentials.domains.*
 import com.cloudbees.plugins.credentials.impl.*
-import com.cloudbees.jenkins.plugins.sshcredentials.impl.*
 
 
 // SECURITY WARNING: Dirty way to get secret
 // FOR DEVELOPMENT ONLY
 // NOTE: For real use, there should be proper secret management.
 
+// Based on: https://github.com/hayderimran7/useful-jenkins-groovy-init-scripts/blob/master/init.groovy
 
 // Variables
-credentialId="credential_reference_id"
+credentialId="credential_reference_id_pwd"
+credentialDescription="Example credential"
 credentialUser="FooBar"
 credentialPassword="secret"
-credentialDescription="Example credential username and password"
 
 
 def instance = Jenkins.getInstance()
