@@ -4,3 +4,4 @@ workflow-aggregator
 pipeline-model-definition
 ldap
 email-ext
+credentials

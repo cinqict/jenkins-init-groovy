@@ -21,7 +21,7 @@ In this repo you find a simple `Dockerfile` based on a previous blog [Building a
 docker build -t jenkinsdev .
 
 # Create container
-docker run -it -p 80:8080 jenkinsdev
+docker run -it --rm -p 80:8080 jenkinsdev
 ```
 
 ## References
