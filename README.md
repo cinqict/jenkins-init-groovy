@@ -40,8 +40,8 @@ Here are some other repo's with Groovy files.
   - [x] minimal Groovy file
   - [x] minimal plugin list
   - [x] minimal README
-- [ ] Make each Groovy example general
+- [x] Make each Groovy example general
 - [ ] write blog / readme
-- [ ] Which default groovy file in `init.groovy.d`?
+- [x] Which default groovy file in `init.groovy.d`?
 - [x] Add references
 - [ ] Blog remark: when you import a plugin class in your Groovy file, be sure to also add the plugin to the plugin list.
