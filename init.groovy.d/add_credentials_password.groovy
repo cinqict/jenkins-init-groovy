@@ -15,7 +15,7 @@ import com.cloudbees.plugins.credentials.impl.*
 // Based on: https://github.com/hayderimran7/useful-jenkins-groovy-init-scripts/blob/master/init.groovy
 
 // Variables
-credentialId="credential_reference_id_pwd"
+credentialId="credential_reference_id_usr_pwd"
 credentialDescription="Example credential"
 credentialUser="FooBar"
 credentialPassword="secret"
