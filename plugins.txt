@@ -5,3 +5,7 @@ pipeline-model-definition
 ldap
 email-ext
 credentials
+cloudbees-bitbucket-branch-source
+bitbucket-pullrequest-builder
+stash-pullrequest-builder
+stashNotifier

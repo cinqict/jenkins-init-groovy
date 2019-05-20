@@ -1,6 +1,4 @@
 #!groovy
-
-// imports
 import com.cloudbees.plugins.credentials.*
 import com.cloudbees.plugins.credentials.domains.Domain
 import com.cloudbees.plugins.credentials.impl.*
@@ -8,8 +6,9 @@ import hudson.util.Secret
 import jenkins.model.Jenkins
 import com.cloudbees.jenkins.plugins.bitbucket.endpoints.*
 
-bitbbucketName:          'Bitbucket_server_name',
-bitbbucketServerURL:     '',
+// Variables
+bitbbucketName:          'Bitbucket_Server_Name',
+bitbbucketServerURL:     'bitbucket.example.com',
 //bitbbucketCallCanMerge:  false, -> bug in plugin, this parameter is missing in BitbucketServerEndpoint, see https://github.com/jenkinsci/bitbucket-branch-source-plugin/blob/master/src/main/java/com/cloudbees/jenkins/plugins/bitbucket/endpoints/BitbucketServerEndpoint.java
 bitbbucketManageHooks:   true,
 bitbbucketCredentialsId: 'credential_reference_id_usr_pwd'
