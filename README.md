@@ -24,6 +24,15 @@ docker build -t jenkinsdev .
 docker run -it -p 80:8080 jenkinsdev
 ```
 
+## References
+
+Here are some other repo's with Groovy files.
+
+- [samrocketman](https://github.com/samrocketman/jenkins-bootstrap-shared/tree/master/scripts)
+- [MoveingBlocks](https://github.com/MovingBlocks/GroovyJenkins/tree/master/src/main/groovy)
+- [peterjenkins1](https://github.com/peterjenkins1/jenkins-scripts)
+- [hayderimran7](https://github.com/hayderimran7/useful-jenkins-groovy-init-scripts)
+
 ## ToDO
 
 - [x] minimal project setup MVP
@@ -34,3 +43,5 @@ docker run -it -p 80:8080 jenkinsdev
 - [ ] Make each Groovy example general
 - [ ] write blog / readme
 - [ ] Which default groovy file in `init.groovy.d`?
+- [x] Add references
+- [ ] Blog remark: when you import a plugin class in your Groovy file, be sure to also add the plugin to the plugin list.
