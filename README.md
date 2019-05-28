@@ -6,11 +6,11 @@ A while ago I developed some Groovy files to configure Jenkins from code. Since 
 
 Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations.
 
+Since there is no proper documentation you have basicly two options when you want to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
+
 In the `init.groovy.d.example` directory you can find Groovy examples which you can use.
 
 ## Developing Groovy files yourself
-
-The strategy that works best for me is first search the web for Groovy examples which come close to what you want. You can then try to write some Groovy yourself or, if you have some minimal programming knowledge, look in the source code of Jenkins or the particular plugin and see if there are any methods or other classes that can help.
 
 You can use the Script Console `http://localhost/script` to test your Groovy code. This way you do not have to restart Jenkins.
 
@@ -39,14 +39,8 @@ Here are some other repositories with Groovy files.
 
 ## ToDO
 
-- [x] minimal project setup MVP
-  - [x] minimal Dockerfile
-  - [x] minimal Groovy file
-  - [x] minimal plugin list
-  - [x] minimal README
-- [x] Make each Groovy example general
-- [x] write blog / readme
-- [x] Which default groovy file in `init.groovy.d`?
-- [x] Add references
-- [x] Blog remark: when you import a plugin class in your Groovy file, be sure to also add the plugin to the plugin list.n b
-- [x] Spelling checker
+- [ ] Rewrite blog
+
+## OLD
+
+The strategy that works best for me is first search the web for Groovy examples which come close to what you want. You can then try to write some Groovy yourself or, if you have some minimal programming knowledge, look in the source code of Jenkins or the particular plugin and see if there are any methods or other classes that can help.
