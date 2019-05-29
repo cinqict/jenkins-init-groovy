@@ -4,21 +4,18 @@ A while ago I developed some Groovy files to configure Jenkins from code. Since 
 
 ## Configure Jenkins using Groovy
 
-Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations.
+Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basicly two options when you want to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
+If you are not a developer, like me, don't be scared of this code. Just look and see which classes and methods are used and how this is used in the Groovy file. When you start to see the logic, you will be able to modify it yourself.
 
-Since there is no proper documentation you have basicly two options when you want to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
-
-In the `init.groovy.d.example` directory you can find Groovy examples which you can use.
+In the `init.groovy.d.example` directory you can find Groovy examples which I have created this way.
 
 ## Developing Groovy files yourself
 
-You can use the Script Console `http://localhost/script` to test your Groovy code. This way you do not have to restart Jenkins.
+In this repo you find a simple `Dockerfile` based on a previous blog [Building a Jenkins development Docker image](https://github.com/cinqict/jenkinsdev). Using this image, you can quickly create and destroy a Jenkins server to verify your Groovy files or test new plugins.
+
+The Script Console `http://localhost/script` offers a simple way to run your Groovy directly.
 
 Note that when you import a plugin class in your Groovy file, be sure to add the plugin also to the `plugin.txt` file.
-
-### Simple Jenkins
-
-In this repo you find a simple `Dockerfile` based on a previous blog [Building a Jenkins development Docker image](https://github.com/cinqict/jenkinsdev). Using this image, you can quickly create and destroy a Jenkins server to verify new plugins from `plugins.txt` and your Groovy files from the `init.groovy.d` directory.
 
 ```bash
 # Build images
@@ -39,8 +36,5 @@ Here are some other repositories with Groovy files.
 
 ## ToDO
 
-- [ ] Rewrite blog
-
-## OLD
-
-The strategy that works best for me is first search the web for Groovy examples which come close to what you want. You can then try to write some Groovy yourself or, if you have some minimal programming knowledge, look in the source code of Jenkins or the particular plugin and see if there are any methods or other classes that can help.
+- [x] Rewrite blog
+- [ ] Review
