@@ -4,8 +4,9 @@ A while ago I developed some Groovy files to configure Jenkins from code. Since 
 
 ## Configure Jenkins using Groovy
 
-Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basicly two options when you want to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
-If you are not a developer, like me, don't be scared of this code. Just look and see which classes and methods are used and how this is used in the Groovy file. When you start to see the logic, you will be able to modify it yourself.
+Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basicly two options to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
+
+If you are not a developer, like me, don't be scared of this code. Just look and see which classes and methods are used in the Groovy file you have found. When you start to see the logic, you will be able to modify it yourself.
 
 In the `init.groovy.d.example` directory you can find Groovy examples which I have created this way.
 
@@ -27,7 +28,7 @@ docker run -it --rm -p 80:8080 jenkinsdev
 
 ## References
 
-Here are some other repositories with Groovy files.
+Here are some other repositories which contain nice Groovy examples to configure Jenkins.
 
 - [samrocketman](https://github.com/samrocketman/jenkins-bootstrap-shared/tree/master/scripts)
 - [MoveingBlocks](https://github.com/MovingBlocks/GroovyJenkins/tree/master/src/main/groovy)
