@@ -6,15 +6,15 @@ A while ago I developed some Groovy files to configure Jenkins from code. Since 
 
 Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basicly two options to create your own Groovy files: search for github repo's with examples or dive into Jenkins or plugin code.
 
-If you are not a developer, like me, don't be scared of this code. Just look and see which classes and methods are used in the Groovy file you have found. When you start to see the logic, you will be able to modify it yourself.
+If you are not a developer, like me, don't be scared of this code. Just look and try to find the classes and methods that are used in the Groovy file you have found. When you recognize them, you will be able to make modifications yourself.
 
 In the `init.groovy.d.example` directory you can find Groovy examples which I have created this way.
 
 ## Developing Groovy files yourself
 
-In this repo you find a simple `Dockerfile` based on a previous blog [Building a Jenkins development Docker image](https://github.com/cinqict/jenkinsdev). Using this image, you can quickly create and destroy a Jenkins server to verify your Groovy files or test new plugins.
+Jenkins contains a Script Console `http://localhost/script`, offers a simple way to run your Groovy directly. This will give you the fastest feedback, but it is also applied to your Jenkins instance.
 
-The Script Console `http://localhost/script` offers a simple way to run your Groovy directly.
+If you prefer a more isolated Jenkins you can use the `Dockerfile` in this repo. This is just a simple Jenkins server based on a previous blog [Building a Jenkins development Docker image](https://github.com/cinqict/jenkinsdev). Using this image, you can quickly create and destroy your own Jenkins server to verify your Groovy files or test new plugins.
 
 Note that when you import a plugin class in your Groovy file, be sure to add the plugin also to the `plugin.txt` file.
 
@@ -38,4 +38,4 @@ Here are some other repositories which contain nice Groovy examples to configure
 ## ToDO
 
 - [x] Rewrite blog
-- [ ] Review
+- [x] Review
