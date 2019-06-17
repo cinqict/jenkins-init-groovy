@@ -22,6 +22,8 @@ docker build -t jenkinsdev .
 docker run -it --rm -p 80:8080 jenkinsdev
 ```
 
+When you have created your own Groovy code, feel free to commit them the repo!
+
 ## References
 
 Here are other repositories which contain nice Groovy examples to configure Jenkins. Some of my example are based on these.
