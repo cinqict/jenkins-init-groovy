@@ -6,7 +6,7 @@ You can find these Groovy examples in the `init.groovy.d.example` directory.
 
 ## Developing Groovy files yourself
 
-Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basicly two options to create your own Groovy files: search for examples in github repo's or dive into the code of Jenkins or a particular plugin.
+Jenkins offers a hook, the `init.groovy.d` directory, where you can add your Groovy code for all initial Jenkins configurations. Since there is no proper documentation, you have basically two options to create your own Groovy files: search for examples in GitHub repo's or dive into the code of Jenkins or a particular plugin.
 
 If you are not a developer, like me, don't be scared of the Jenkins code or it's plugins. Just look and try to find the classes and methods that are used in the Groovy file you have found. When you recognize them, you will be able to make modifications yourself. This is how I've made most of these examples.
 
