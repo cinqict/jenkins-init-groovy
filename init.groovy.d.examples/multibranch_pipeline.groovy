@@ -1,9 +1,4 @@
 #!/usr/bin/env groovy
-
-/* 
-Based on: https://github.com/peterjenkins1/jenkins-scripts/blob/master/add-multibranch-pipeline-job.groovy 
-*/
-
 import jenkins.*
 import jenkins.model.*
 import hudson.*
@@ -14,6 +9,13 @@ import jenkins.branch.*
 import jenkins.plugins.git.*
 import org.jenkinsci.plugins.workflow.multibranch.*
 import com.cloudbees.hudson.plugins.folder.*
+
+
+// Required plugins: 
+// - workflow-multibranch
+//
+
+// Based on: https://github.com/peterjenkins1/jenkins-scripts/blob/master/add-multibranch-pipeline-job.groovy 
 
 
 // Project variables

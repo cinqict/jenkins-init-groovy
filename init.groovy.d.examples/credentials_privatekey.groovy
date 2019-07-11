@@ -7,6 +7,9 @@ import com.cloudbees.plugins.credentials.common.*
 import com.cloudbees.plugins.credentials.domains.*
 import com.cloudbees.jenkins.plugins.sshcredentials.impl.*
 
+// Required plugins: 
+// (none)
+//
 
 // SECURITY WARNING: Dirty way to get secret
 // FOR DEVELOPMENT ONLY

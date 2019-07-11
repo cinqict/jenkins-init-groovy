@@ -6,6 +6,7 @@ import hudson.security.*
 
 // Required plugins:
 // - ldap
+//
 
 def hudsonRealm = new HudsonPrivateSecurityRealm(false)
 def instance = Jenkins.getInstance()

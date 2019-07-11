@@ -1,7 +1,10 @@
 #!/usr/bin/env groovy
-
 import jenkins.model.*
 import hudson.security.*
+
+// Required plugins: 
+// (none)
+//
 
 def instance = Jenkins.getInstance()
 

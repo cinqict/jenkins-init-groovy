@@ -9,3 +9,4 @@
 #bitbucket-pullrequest-builder
 #stash-pullrequest-builder
 #stashNotifier
+#openstack-cloud

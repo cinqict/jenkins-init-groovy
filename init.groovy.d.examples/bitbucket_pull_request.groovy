@@ -12,6 +12,13 @@ import com.cloudbees.hudson.plugins.folder.*
 import com.cloudbees.jenkins.plugins.bitbucket.*
 import com.cloudbees.jenkins.plugins.bitbucket.endpoints.*;
 
+// Required plugins: 
+// - workflow-multibranch
+// - bitbucket-pullrequest-builder
+// - cloudbees-bitbucket-branch-source
+//
+
+
 // Variables
 String bitbucketServerName = "Bitbucket_Server_Name"  // Bitbucket server name, defined in global Jenkins conf (bitbbucketName)
 String credentialsId = "credential_reference_id_usr_pwd"

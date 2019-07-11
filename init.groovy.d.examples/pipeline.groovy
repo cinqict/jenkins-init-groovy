@@ -8,6 +8,11 @@ import hudson.plugins.git.BranchSpec
 import hudson.plugins.git.UserRemoteConfig
 import com.cloudbees.hudson.plugins.folder.*
 
+// Required plugins: 
+// - git
+// - workflow-multibranch
+//
+
 // Variables
 String jobName = "hello_world_pipeline"
 String jobDescription = "Pipeline job"

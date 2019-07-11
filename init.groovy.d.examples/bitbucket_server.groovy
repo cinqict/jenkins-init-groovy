@@ -6,6 +6,12 @@ import hudson.util.Secret
 import jenkins.model.Jenkins
 import com.cloudbees.jenkins.plugins.bitbucket.endpoints.*
 
+// Required plugins: 
+// - bitbucket-pullrequest-builder
+// - cloudbees-bitbucket-branch-source
+//
+
+
 // Variables
 bitbbucketName:          'Bitbucket_Server_Name',
 bitbbucketServerURL:     'bitbucket.example.com',

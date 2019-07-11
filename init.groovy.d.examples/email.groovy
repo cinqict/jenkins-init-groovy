@@ -1,5 +1,10 @@
 import jenkins.model.*
 
+// Required plugins: 
+// - email-ext
+//
+
+
 // Project variables
 String smtpServer = "smpt.example.com"
 String smtpPort = "25"

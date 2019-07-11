@@ -4,6 +4,9 @@ import hudson.slaves.*
 import hudson.slaves.EnvironmentVariablesNodeProperty.Entry
 import hudson.plugins.sshslaves.verifiers.*
 
+// Required plugins: 
+// (none)
+//
 
 // References:
 // - https://support.cloudbees.com/hc/en-us/articles/218154667-Create-a-Permanent-Agent-from-Groovy-Console
